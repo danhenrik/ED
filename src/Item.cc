@@ -5,17 +5,17 @@ Item::Item()
   value = -1;
 }
 
-Item::Item(std::string c)
+Item::Item(std::string v)
 {
-  value = c;
+  value = v;
 }
 
-void Item::SetChave(std::string c)
+void Item::SetValue(std::string v)
 {
-  value = c;
+  value = v;
 }
 
-std::string Item::GetChave()
+std::string Item::GetValue()
 {
   return value;
 }

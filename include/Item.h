@@ -7,10 +7,15 @@
 class Item
 {
 public:
+  // Cria um item vazio.
   Item();
+  // Cria atribuindo a string passada ao value.
   Item(std::string);
-  void SetChave(std::string);
-  std::string GetChave();
+  // Atribui a string passada ao value.
+  void SetValue(std::string);
+  // Retorna value.
+  std::string GetValue();
+  // Imprime value no terminal.
   void Imprime();
 
 private:

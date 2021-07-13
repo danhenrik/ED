@@ -7,7 +7,10 @@
 class FilaEncadeada : public Fila
 {
 public:
+  // Cria uma fila vazia com uma única célula (cabeça).
   FilaEncadeada();
+  /* Exclui completamente a lista da memória, excluindo 
+  todas as células inclusive a cabeça.  */
   virtual ~FilaEncadeada();
 
   virtual void Enfileira(Item);
