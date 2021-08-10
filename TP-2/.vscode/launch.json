@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        "homologacao.txt",
+        "1",
+        "50000"
+      ],
+      "stopAtEntry": false,
+      "cwd": "/mnt/c/Users/Daniel/Google Drive/UFMG/ED/TP2/TP",
+      "environment": [],
+      "program": "/mnt/c/Users/Daniel/Google Drive/UFMG/ED/TP2/TP/bin/run.out",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false
+    }
+  ]
+}
