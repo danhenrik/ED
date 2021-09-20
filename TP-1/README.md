@@ -2,7 +2,7 @@
 
 #### Feito em cima do WSL do windows, usando o modo WSL do VSCode tanto na compilação quanto no debug.
 
-Resultado final compilado em bin/run.out
+Resultado final compilado em ./bin/run.exe
 
 Comandos para compilação em exe no mesmo path:
 
